@@ -15,7 +15,9 @@ constructor(props) {
 
     }
 
-    
+    onSignUp() {
+      
+    }
   render() {
     return (
       <View>
