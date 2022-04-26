@@ -9,11 +9,13 @@ export default function Landing({ navigation }) {
     <View style = {{ flex: 1, justifyContent: 'center' }}>
         <Button 
             title="Register"
-            onPress = {() => navigation.navigate("Register")}
+            onPress = {() => {
+              return navigation.navigate("Register");
+            }}
         />
         <Button 
             title="Login"
-            onPress = {() => navigation.navigate("Login")}
+            onPress = {() => {navigation.navigate("Login")}}
         />
     </View>
   )
